@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    overflow-x: hidden;
+}
+
+header, h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    padding: 60px;
+    max-width: 1440px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    padding: 25px;
+ }
+
+.images1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+    margin-bottom: 140px;
+    width: 100%;
+}
+
+h1 {
+    color: hsl(243, 87%, 12%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 60px;
+    margin-bottom: 15px;
+}
+
+.summary {
+    font-size: 18px;
+    font-weight: 400;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.email {
+    border-radius: 5px solid 1px;
+    padding: 15px;
+    width: 320px;
+    margin-right: 10px;
+    cursor: text;
+}
+
+.submit {
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    font-family: 'Raleway', sans-serif;;
+    font-weight: 400;
+    padding: 16px;
+    width: 200px;
+    border-radius: 5px;
+    border: solid;
+    cursor: pointer;
+}
+
+.submit:hover {
+    opacity: 0.6;
+    font-weight: 700;
+}
+
+.second-content {
+    background-color: hsl(240, 75%, 98%);
+    position: relative;
+    display: flex;
+    padding: 60px;
+    padding-top: 80px;
+    padding-bottom: 106px;
+    width: 100%;
+}
+
+.second-content::before {
+    position: absolute;
+    content: '';
+    top: -69px;
+    left: 0;
+    width: 100vw;
+    height: 69px;    
+    background-image: url('./images/bg-curve-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.images2 img {
+    max-width: 80%;
+    height: auto;
+    position: relative;
+    top: 30px;
+    left: 120px;
+}
+
+h2 {
+    padding-top: 20px;
+    color: hsl(243, 87%, 12%);
+    font-size: 36px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    width: 110%;
+}
+
+.summary1, .summary2 {
+    width: 90%;
+    margin-bottom: 15px;
+}
+
+.link img {
+    position: relative;
+    top: 2px;
+    text-decoration: underline;
+}
+ 
+.link a {
+ color: hsl(170, 45%, 43%);
+}
+ 
+.link a:hover {
+    opacity: 0.7;
+}
+
+.fylo:active {
+    opacity: 0.7;
+}
+ 
+.link {
+     margin-bottom: 30px;
+}
+
+.card {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    box-shadow: hsl(0, 0%, 75%) 0px 8px 20px;
+    border-radius: 8px;
+}
+
+.quotes {
+    margin-top: 4px;
+    font-size: 1rem;
+    line-height: 1.7;
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 17px;
+}
+
+.avatar {
+    display: flex;
+}
+
+.avatar::before {
+    top: -29px;
+}
+
+.avatar img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.profile {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+}
+
+.third-content {
+    background-color: hsl(238, 22%, 44%);
+    padding: 60px;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.sign-form {
+    margin-right: 25%;
+    margin-top: 50px;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+    margin-top: 30px;
+}
+
+.summary3 {
+    font-weight: 400;
+    color: white;
+    width: 68%;
+}
+
+.emails {
+    padding: 15px;
+    width: 220%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: none;
+    box-shadow: hsl(0, 0%, 35%) 5px 5px 5px;
+    margin-bottom: 15px;
+}
+
+.submit-two {
+    background-color: hsl(224, 93%, 58%);
+    font-family: 'Raleway', sans-serif;;
+    font-weight: 400;
+    color: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.submit-two:hover {
+    opacity: 0.7;
+    font-weight: 700;
+}
+
+footer {
+    padding: 60px;
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+ul, li {
+    list-style-type: none;
+}
+
+.footer-img {
+    margin-bottom: 20px;
+}
+
+.icon-contact {
+    padding-right: 15px;
+}
+
+.icon-list {
+    margin-bottom: 20px;
+}
+
+.about {
+    margin-top: 75px;
+    margin-left: 18%;
+}
+
+.about-list li {
+    padding-bottom: 20px;
+}
+
+.terms {
+    margin-top: 75px;
+    margin-left: 15%;
+}
+
+.terms-list li {
+    padding-bottom: 20px;
+}
+
